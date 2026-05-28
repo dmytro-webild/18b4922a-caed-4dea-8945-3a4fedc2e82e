@@ -61,7 +61,6 @@ export default function AppPage() {
             { imageSrc: "http://img.b2bpic.net/free-photo/bouquet-violet-flowers-with-green-leaves-inside-vase_114579-1437.jpg", imageAlt: "Vibrant flower beds and plants" },
             { imageSrc: "http://img.b2bpic.net/free-photo/reforestation-done-by-voluntary-group_23-2149500812.jpg", imageAlt: "Landscaping team working in a garden" }
           ]}
-          useInvertedBackground={false}
         />
       </div>
 
@@ -77,8 +76,8 @@ export default function AppPage() {
           useInvertedBackground={true}
           imageSrc="http://img.b2bpic.net/free-photo/overhead-view-male-female-gardener-digging-soil-watering-plant_23-2148165277.jpg"
           imageAlt="experienced landscaper overseeing project"
-          mediaAnimation="reveal-blur"
-          metricsAnimation="reveal-blur"
+          mediaAnimation="blur-reveal"
+          metricsAnimation="blur-reveal"
         />
       </div>
 
@@ -143,8 +142,8 @@ export default function AppPage() {
             { src: "http://img.b2bpic.net/free-photo/medium-shot-senior-woman-portrait_23-2149421489.jpg", alt: "Emily R." },
             { src: "http://img.b2bpic.net/free-photo/portrait-bearded-mature-male-looking-away_23-2148673491.jpg", alt: "David K." }
           ]}
-          ratingAnimation="reveal-blur"
-          avatarsAnimation="reveal-blur"
+          ratingAnimation="blur-reveal"
+          avatarsAnimation="blur-reveal"
           useInvertedBackground={true}
         />
       </div>
@@ -172,8 +171,8 @@ export default function AppPage() {
           ]}
           imageSrc="http://img.b2bpic.net/free-photo/basket-flowers-with-black-shovel_23-2148269636.jpg"
           imageAlt="Garden tools on lush grass"
-          mediaAnimation="reveal-blur"
-          faqsAnimation="reveal-blur"
+          mediaAnimation="blur-reveal"
+          faqsAnimation="blur-reveal"
           textboxLayout="default"
           useInvertedBackground={true}
         />
